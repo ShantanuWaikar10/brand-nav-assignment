@@ -14,7 +14,7 @@
 }
 
 .app__navbar-logo img {
-    width: 150px;
+    width: 170px;
 }
 
 .app__navbar-links {
@@ -22,7 +22,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     list-style: none;
 }
 
@@ -39,7 +38,7 @@
 
 .app__navbar-links li a{
     color: var(--color-gray);
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .app__navbar-links li a:hover{
@@ -58,7 +57,7 @@
     text-decoration: none;
     transition: .5s ease;
     font-family: var(--font-alt);
-    font-size: 25px;
+    font-size: 21px;
     font-weight: 500;
 }
 
@@ -73,10 +72,10 @@
     border-color: #F53855;
     color: #F53855;
     font-family: var(--font-alt);
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 25px;
-    width: 180px;
-    height: 50px;
+    width: 150px;
+    height: 45px;
     padding: auto;
 }
 
