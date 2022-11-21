@@ -1,0 +1,147 @@
+.app__header {
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px;
+}
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-black);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 100px;
+    font-size: 70px;
+}
+
+.app__wrapper_img img{
+    width: 900px;
+}
+
+.app__wrapper_info p{
+    font-family: var(--font-base);
+    color: var(--color-gray);
+    margin-top: 40px;
+    line-height: 30px;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.app__wrapper_info h1 span{
+    font-weight: 700;
+}
+
+.app__wrapper_info h1{
+    font-weight: 500;
+}
+
+.app__wrapper_info{
+    margin: 100px auto;
+}
+
+.app__wrapper_info button{
+    margin-top: 40px;
+    width: 250px;
+    height: 60px;
+    background-color: #F53838;
+    color: var(--color-white);
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0px 30px 30px 2px #ffc4c4;
+}
+
+.header-foot{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 30px 30px 2px rgb(243, 243, 243);
+}
+
+.header-foot-items{
+    display: flex;
+}
+
+.verticle-line{
+    width: 1px;
+    height: 90px;
+    background: var(--color-grey);
+}
+
+.header-foot-items img{
+    width: 30px;
+}
+
+.header-foot-item p{
+    color: var(--color-gray); ;
+}
+
+.img_background{
+    background-color: #FFECEC;
+    height: 60px;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.header-foot-item{
+    font-family: var(--font-base);
+}
+
+@media screen and (max-width: 1150px) {
+    .app__header-h1 {
+        font-size: 90px;
+    }
+
+    .app__header{
+        flex-direction: column;
+    }
+
+    .app__wrapper_img img{
+        width: 100%;
+    }
+
+    .img_background{
+        background-color: #FFECEC;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .header-foot-items img{
+        width: 20px;
+    }
+}
+ 
+@media screen and (max-width: 650px) {
+
+    .app__wrapper_info h1{
+        font-size: 50px;
+    }
+    .app__header-h1 {
+        font-size: 60px;
+        line-height: 87px;
+        text-align: center;
+    }
+
+    .app__header{
+        margin-top: 0px;
+    }
+
+    .app__wrapper_info button{
+        margin-left: 20px;
+    }
+
+    .verticle-line{
+        display: none;
+    }
+
+    .img_background img{
+        margin: 5px;
+    }
+
+    .header-foot-item{
+        margin: 5px;
+    }
+}

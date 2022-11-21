@@ -1,0 +1,127 @@
+.pricing__container{
+    margin-top: 300px;
+}
+
+.pricing__text{
+    text-align: center;
+    margin: 0 500px;
+}
+
+.pricing__text h1{
+    font-size: 50px;
+    font-family: var(--font-base);
+    margin-bottom: 40px;
+}
+
+.pricing__text p{
+    font-size: 25px;
+    font-family: var(--font-base);
+    color: var(--color-gray);
+    line-height: 40px;
+}
+
+.pricing__card{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 50px 150px;
+}
+
+.pricing__card__item{
+    background-color: var(--color-white);
+    border: 3px solid rgb(218, 218, 218);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.pricing__card__item:hover{
+    border: 3px solid #F53838;
+}
+
+.pricing__card__item img{
+    width: 150px;
+}
+
+.pricing__card__item h2{
+    margin: 50px auto;
+    font-family: var(--font-base);
+}
+
+.pricing__card__item h1{
+    font-family: var(--font-base);
+}
+
+.pricing__card__item__text{
+    display: flex;
+    margin: 20px 5px;
+}
+
+.pricing__card__item button{
+    background-color: var(--color-white);
+    cursor: pointer;
+    border-style: solid;
+    border-color: #F53855;
+    color: #F53855;
+    font-family: var(--font-alt);
+    font-size: 25px;
+    border-radius: 25px;
+    width: 180px;
+    height: 50px;
+    padding: auto;
+    font-weight: 900;
+    margin-top: 25px;
+}
+
+.pricing__card__item button:hover{
+    background-color: #F53855;
+    color: var(--color-white);
+}
+
+.pricing__card__check{
+    color: green;
+    font-size: 30px;
+}
+
+.pricing__card__item__text p{
+    font-family: var(--font-base);
+    color: var(--color-gray);
+    font-size: 20px;
+}
+
+.pricing__card__item__one h1{
+    margin-top: 130px;
+}
+
+.pricing__card__item__two h1{
+    margin-top: 75px;
+}
+
+@media screen and (max-width: 1150px) {
+    .pricing__text{
+        margin: auto 10px;
+    }
+
+    .pricing__card{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+
+    .pricing__container{
+        margin-top: 100px;
+    }
+
+    .pricing__card__item{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .pricing__text{
+        margin: auto 5px;
+    }
+
+    .pricing__card__item{
+        width: 350px;
+    }
+}
