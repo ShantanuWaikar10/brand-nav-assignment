@@ -15,8 +15,8 @@ function App() {
       <Pricing/>
       <Network/>
       <Testimonials/>
-      <Subscribe/>
-      <Footer/>
+      {/* <Subscribe/>
+      <Footer/> */}
     </div>
   );
 }

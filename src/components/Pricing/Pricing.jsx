@@ -62,7 +62,7 @@ const Pricing = () => {
                         <button>Select</button>
                     </div>
 
-                    <div className="pricing__card__item">
+                    <div className="pricing__card__item pricing__card__item__three">
                         <img src={Free} alt="" />
                         <h2>Premium Plan</h2>
                         <div className="pricing__card__item__text">

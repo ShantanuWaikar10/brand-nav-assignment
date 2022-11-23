@@ -1,20 +1,20 @@
 .pricing__container{
-    margin-top: 300px;
+    margin-top: 250px;
 }
 
 .pricing__text{
     text-align: center;
-    margin: 0 500px;
+    margin: 0 360px;
 }
 
 .pricing__text h1{
-    font-size: 50px;
+    font-size: 40px;
     font-family: var(--font-base);
     margin-bottom: 40px;
 }
 
 .pricing__text p{
-    font-size: 25px;
+    font-size: 20px;
     font-family: var(--font-base);
     color: var(--color-gray);
     line-height: 40px;
@@ -24,7 +24,8 @@
     display: flex;
     text-align: center;
     justify-content: space-around;
-    margin: 50px 150px;
+    gap: 30px;
+    margin: 40px 80px;
 }
 
 .pricing__card__item{
@@ -53,7 +54,7 @@
 
 .pricing__card__item__text{
     display: flex;
-    margin: 20px 5px;
+    margin: 10px 0px;
 }
 
 .pricing__card__item button{
@@ -79,21 +80,25 @@
 
 .pricing__card__check{
     color: green;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .pricing__card__item__text p{
     font-family: var(--font-base);
     color: var(--color-gray);
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .pricing__card__item__one h1{
-    margin-top: 130px;
+    margin-top: 115px;
 }
 
 .pricing__card__item__two h1{
     margin-top: 75px;
+}
+
+.pricing__card__item__three h1{
+    margin-top: 35px;
 }
 
 @media screen and (max-width: 1150px) {
