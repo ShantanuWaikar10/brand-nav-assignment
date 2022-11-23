@@ -1,10 +1,10 @@
 .testimonials__text{
     text-align: center;
-    margin: 100px 530px;
+    margin: 100px 300px;
 }
 
 .testimonials__text h1{
-    font-size: 50px;
+    font-size: 40px;
     font-family: var(--font-base);
     margin-bottom: 40px;
     line-height: 70px;
@@ -13,18 +13,12 @@
 }
 
 .testimonials__text p{
-    font-size: 25px;
+    font-size: 20px;
     font-family: var(--font-base);
     line-height: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
-
-
-
-
-
-
-
-
 
 .app__gallery-images {
     margin-left: 70px;
@@ -44,14 +38,10 @@
     scrollbar-width: none;  
 }
 
-.app__gallery-images_container::-webkit-scrollbar {
-    display: none;
-}
-
 .app__gallery-images_card {
     position: relative;
-    min-width: 600px;
-    height: 330px;
+    min-width: 550px;
+    height: 350px;
     margin-right: 2rem;
     border: 3px solid var(--color-grey);
     padding: 30px;
@@ -109,28 +99,30 @@
 
 .rating p{
     margin-right: 0;
-    margin-left: 50px;
-    font-size: 25px;
+    margin-left: 25px;
+    font-size: 20px;
     font-family: var(--font-base);
 }
 
 .comment{
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: var(--font-base);
     line-height: 40px;
 }
 
 .name__location h5{
-    font-size: 25px;
+    width: 200px;
+    font-size: 20px;
     font-family: var(--font-base); 
 }
 
 .name__location p{
-    font-size: 20px;
+    font-size: 15px;
     color: var(--color-gray);
     font-family: var(--font-base); 
 }
+
 
 .left__right__buttons{
     display: flex;
@@ -171,11 +163,20 @@
         margin-right: 20px;
         gap: 20px;
     }
+
+    .rating p{
+        margin-left: 100px;
+    }
 }
  
 @media screen and (max-width: 650px) {
     .testimonials__text h1{
         margin: 0;
+        line-height: 50px;
+    }
+
+    .testimonials__text p{
+        margin-top: 50px;
     }
 
     .app__gallery-images{
@@ -190,4 +191,18 @@
         margin-right: 20px;
         gap: 20px;
     }
+
+    .app__gallery-images_card {
+        min-width: 370px;
+        height: 350px;
+    }
+
+    .rating p{
+        margin-left: 0;
+    }
+
+    .name__location{
+        width: 160px;
+    }
+
 }

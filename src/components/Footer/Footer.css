@@ -1,11 +1,11 @@
 .footer__container{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 70px 50px;
 }
 
 .footer__container__left{
-    margin-right: 220px;
+    margin-right: 0px;
 }
 
 .footer__container__left img{
@@ -72,13 +72,6 @@
         margin-left: 10px;
     }
 
-    .footer__container__right{
-        display: grid;
-        grid-template-columns: auto;
-        margin-left: 80%;
-        margin-top: 20px;
-    }
-
     .footer__container__left p{
         width: 350px;
     }
@@ -88,7 +81,15 @@
         gap: 10px;
     }
 
+    .footer__container__right{
+        margin: 0;
+        display: grid;
+        grid-template-columns: auto auto;
+
+    }
+
     .footer__container__right__all{
+        width: 150px;
         margin-top: 50px;
     }
 }
