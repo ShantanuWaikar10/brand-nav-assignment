@@ -20,6 +20,10 @@
     margin-right: 100px;
 }
 
+.app__gallery-images_container::-webkit-scrollbar {
+    display: none;
+}
+
 .app__gallery-images {
     margin-left: 70px;
     flex: 1;
